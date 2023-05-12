@@ -82,11 +82,27 @@ ul {
   margin: 0px;
 }
 
+.image {
+  background: hsl(277, 64%, 61%);
+  max-height: 446px;
+}
+
+img {
+  mix-blend-mode: multiply;
+  opacity: 1;
+  object-fit: cover;
+}
+
 footer {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 
 footer a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+
+footer a:hover {
   color: hsl(228, 45%, 44%);
 }
